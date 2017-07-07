@@ -1,0 +1,5 @@
+package: .
+import:
+- package: github.com/sergi/go-diff
+  subpackages:
+  - diffmatchpatch

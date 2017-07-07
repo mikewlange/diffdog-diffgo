@@ -1,0 +1,8 @@
+hash: 49d3d9e1b648940e9806c6ee4c4689c73826b17d828eec5aeac4e39926c1f91e
+updated: 2017-07-07T19:25:08.6734639-04:00
+imports:
+- name: github.com/sergi/go-diff
+  version: feef008d51ad2b3778f85d387ccf91735543008d
+  subpackages:
+  - diffmatchpatch
+testImports: []
