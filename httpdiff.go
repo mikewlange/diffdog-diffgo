@@ -70,9 +70,7 @@ func SpaceMap(str string) string {
 	}, strings.ToLower(str))
 }
 
-func SpaceFieldsJoin(str string) string {
-	return strings.Join(strings.Fields(str), "")
-}
+
 
 // do an HTTP request to a server and returns the response object and the
 // complete response body. There's no need to close the response body as this
@@ -119,6 +117,11 @@ func parseHeader(hdr string, m map[string]string) {
 	}
 
 	m[http.CanonicalHeaderKey(strings.TrimSpace(parts[0]))] = strings.TrimSpace(parts[1])
+}
+
+func setMain(str2 string, str3 string){
+
+	flag.Set("options",str2+ " " + str3)
 }
 
 func main() {
